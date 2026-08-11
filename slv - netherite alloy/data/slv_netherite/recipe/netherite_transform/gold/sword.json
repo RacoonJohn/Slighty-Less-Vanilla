@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:golden_sword",
+  "addition": "#minecraft:netherite_tool_materials",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+        "attribute_modifiers": [
+            {"id": "minecraft:base_attack_damage","type": "attack_damage","amount": 7,"operation": "add_value","slot": "mainhand"},
+            {"id": "minecraft:base_attack_speed","type": "attack_speed","amount": -2.4,"operation": "add_value","slot": "mainhand"}
+        ],
+        "max_damage": 1561,
+        "enchantable": {"value": 22}
+    },
+    "count": 1
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "": {
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "slv_mending:sys/player/slots/add"
+    }
+}

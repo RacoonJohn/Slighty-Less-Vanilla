@@ -1,0 +1,101 @@
+{
+    "criteria": {
+        "mainhand": {
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "durability": {
+                    "max": 0
+                },
+                "item": {
+                    "predicates": {
+                        "enchantments": [{"enchantments": "mending"}],
+                        "custom_data": {"slv":{"slot":"mainhand"}}
+                    }
+                }
+            }
+        },
+        "offhand": {
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "durability": {
+                    "max": 0
+                },
+                "item": {
+                    "predicates": {
+                        "enchantments": [{"enchantments": "mending"}],
+                        "custom_data": {"slv":{"slot":"offhand"}}
+                    }
+                }
+            }
+        },
+        "head": {
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "durability": {
+                    "max": 0
+                },
+                "item": {
+                    "predicates": {
+                        "enchantments": [{"enchantments": "mending"}],
+                        "custom_data": {"slv":{"slot":"head"}}
+                    }
+                }
+            }
+        },
+        "chest": {
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "durability": {
+                    "max": 0
+                },
+                "item": {
+                    "predicates": {
+                        "enchantments": [{"enchantments": "mending"}],
+                        "custom_data": {"slv":{"slot":"chest"}}
+                    }
+                }
+            }
+        },
+        "legs": {
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "durability": {
+                    "max": 0
+                },
+                "item": {
+                    "predicates": {
+                        "enchantments": [{"enchantments": "mending"}],
+                        "custom_data": {"slv":{"slot":"legs"}}
+                    }
+                }
+            }
+        },
+        "feet": {
+            "trigger": "item_durability_changed",
+            "conditions": {
+                "durability": {
+                    "max": 0
+                },
+                "item": {
+                    "predicates": {
+                        "enchantments": [{"enchantments": "mending"}],
+                        "custom_data": {"slv":{"slot":"feet"}}
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "mainhand",
+            "offhand",
+            "head",
+            "chest",
+            "legs",
+            "feet"
+        ]
+    ],
+    "rewards": {
+        "function": "slv_mending:sys/player/mending/main"
+    }
+}

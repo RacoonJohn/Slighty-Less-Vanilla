@@ -1,0 +1,10 @@
+[   
+    {
+    "type": "set_lore",
+    "lore": [{"text": "Golden Netherite","color":"gold","italic": false}],
+    "mode": "insert",
+    "offset": 0,
+    "entity": "this"
+},
+"slv_netherite:sys/custom_tool"
+]

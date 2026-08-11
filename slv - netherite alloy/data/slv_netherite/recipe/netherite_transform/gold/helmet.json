@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:golden_helmet",
+  "addition": "#minecraft:netherite_tool_materials",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+        "attribute_modifiers": [
+            {"id": "minecraft:base_armor","type": "armor","amount": 3,"operation": "add_value","slot": "head"},
+            {"id": "minecraft:base_armor_toughness","type": "armor_toughness","amount": 2.5,"operation": "add_value","slot": "head"},
+            {"id": "minecraft:base_knockback_resistance","type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "head"}
+        ],
+        "max_damage": 363,
+        "enchantable": {"value": 22}
+    },
+    "count": 1
+  }
+}
