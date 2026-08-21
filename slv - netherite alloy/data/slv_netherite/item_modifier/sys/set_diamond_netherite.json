@@ -1,9 +1,0 @@
-[{
-    "type": "set_lore",
-    "lore": [{"text": "Diamond Netherite","color":"aqua","italic": false}],
-    "mode": "insert",
-    "offset": 0,
-    "entity": "this"
-},
-"slv_netherite:sys/custom_tool"
-]

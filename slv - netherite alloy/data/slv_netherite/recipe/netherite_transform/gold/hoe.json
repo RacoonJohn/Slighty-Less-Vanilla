@@ -12,7 +12,8 @@
         ],
         "tool":{"rules": [{"blocks": "#mineable/hoe","speed": 14}]},
         "max_damage": 1561,
-        "enchantable": {"value": 22}
+        "enchantable": {"value": 22},
+        "lore": [{"text": "Golden Netherite","color":"gold","italic": false}]
     },
     "count": 1
   }

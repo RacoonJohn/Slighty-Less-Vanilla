@@ -11,8 +11,14 @@
             {"id": "minecraft:base_armor_toughness","type": "armor_toughness","amount": 3.5,"operation": "add_value","slot": "chest"},
             {"id": "minecraft:base_knockback_resistance","type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "chest"}
         ],
-        "max_damage": 430,
-        "enchantable": {"value": 15}
+        "max_damage": 615,
+        "enchantable": {"value": 15},
+        "lore": [{"text": "Iron Netherite","color":"gray","italic": false}],
+        "equippable": {
+          "slot": "chest",
+          "asset_id": "iron_netherite",
+          "equip_sound": "item.armor.equip_netherite"
+        }
     },
     "count": 1
   }

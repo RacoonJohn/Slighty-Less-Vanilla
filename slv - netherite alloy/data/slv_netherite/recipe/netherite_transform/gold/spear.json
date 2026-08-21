@@ -11,7 +11,8 @@
             {"id": "minecraft:base_attack_speed","type": "attack_speed","amount": -3.13,"operation": "add_value","slot": "mainhand"}
         ],
         "max_damage": 1561,
-        "enchantable": {"value": 22}
+        "enchantable": {"value": 22},
+        "lore": [{"text": "Golden Netherite","color":"gold","italic": false}]
     },
     "count": 1
   }

@@ -12,7 +12,8 @@
         ],
         "tool":{"rules": [{"blocks": "#mineable/hoe","speed": 8.5}]},
         "max_damage": 2266,
-        "enchantable": {"value": 15}
+        "enchantable": {"value": 15},
+        "lore": [{"text": "Iron Netherite","color":"gray","italic": false}]
     },
     "count": 1
   }

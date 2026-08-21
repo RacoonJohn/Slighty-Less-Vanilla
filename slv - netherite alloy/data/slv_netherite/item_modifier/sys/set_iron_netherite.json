@@ -1,9 +1,0 @@
-[{
-    "type": "set_lore",
-    "lore": [{"text": "Iron Netherite","color":"gray","italic": false}],
-    "mode": "insert",
-    "offset": 0,
-    "entity": "this"
-},
-"slv_netherite:sys/custom_tool"
-]

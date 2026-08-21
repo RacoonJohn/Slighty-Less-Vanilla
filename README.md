@@ -45,7 +45,8 @@ Recommended to use [Librarian's Balance](https://modrinth.com/datapack/librarian
 ## 🧈 Netherite Alloy
  
 Craft netherite armor with a **gold or iron base** instead of the usual diamond gear, changing its durability, enchantability, and other stats along the way.
- 
+
+ressource pack required (found in the netherite alloy datapack folder)
 ---
  
 <div align="center">

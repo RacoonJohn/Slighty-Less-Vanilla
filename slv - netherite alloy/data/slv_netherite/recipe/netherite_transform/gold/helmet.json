@@ -12,7 +12,13 @@
             {"id": "minecraft:base_knockback_resistance","type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "head"}
         ],
         "max_damage": 363,
-        "enchantable": {"value": 22}
+        "enchantable": {"value": 22},
+        "lore": [{"text": "Golden Netherite","color":"gold","italic": false}],
+        "equippable": {
+          "slot": "head",
+          "asset_id": "gold_netherite",
+          "equip_sound": "item.armor.equip_netherite"
+        }
     },
     "count": 1
   }
