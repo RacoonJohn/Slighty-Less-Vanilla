@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "minecraft:diamond_chestplate",
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "components": {
+        "attribute_modifiers": [
+            {"id": "minecraft:base_armor","type": "armor","amount": 9,"operation": "add_value","slot": "chest"},
+            {"id": "minecraft:base_armor_toughness","type": "armor_toughness","amount": 3,"operation": "add_value","slot": "chest"},
+            {"id": "minecraft:base_knockback_resistance","type": "knockback_resistance","amount": 0.125,"operation": "add_value","slot": "chest"}
+        ],
+        "lore": [{"text": "Diamond Netherite","color":"aqua","italic": false}]
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

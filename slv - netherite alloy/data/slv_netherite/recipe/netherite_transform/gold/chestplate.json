@@ -11,7 +11,7 @@
             {"id": "minecraft:base_armor_toughness","type": "armor_toughness","amount": 2.5,"operation": "add_value","slot": "chest"},
             {"id": "minecraft:base_knockback_resistance","type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "chest"}
         ],
-        "max_damage": 528,
+        "item_model": "gold_netherite_chestplate",
         "enchantable": {"value": 22},
         "lore": [{"text": "Golden Netherite","color":"gold","italic": false}],
         "equippable": {

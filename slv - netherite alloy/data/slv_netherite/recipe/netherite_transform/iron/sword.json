@@ -10,8 +10,8 @@
             {"id": "minecraft:base_attack_damage","type": "attack_damage","amount": 6,"operation": "add_value","slot": "mainhand"},
             {"id": "minecraft:base_attack_speed","type": "attack_speed","amount": -2.4,"operation": "add_value","slot": "mainhand"}
         ],
+        "item_model": "iron_netherite_sword",
         "max_damage": 2266,
-        "enchantable": {"value": 15},
         "lore": [{"text": "Iron Netherite","color":"gray","italic": false}]
     },
     "count": 1

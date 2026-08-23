@@ -1,8 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
-  "base": "minecraft:golden_spear",
   "addition": "#minecraft:netherite_tool_materials",
-  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:diamond_spear",
   "result": {
     "id": "minecraft:netherite_spear",
     "components": {
@@ -10,12 +9,8 @@
             {"id": "minecraft:base_attack_damage","type": "attack_damage","amount": 4,"operation": "add_value","slot": "mainhand"},
             {"id": "minecraft:base_attack_speed","type": "attack_speed","amount": -3.13,"operation": "add_value","slot": "mainhand"}
         ],
-        "item_model": "gold_netherite_spear",
-        "max_damage": 1561,
-        "enchantable": {"value": 22},
-        "lore": [{"text": "Golden Netherite","color":"gold","italic": false}]
-    },
-    "count": 1
-  }
+        "lore": [{"text": "Diamond Netherite","color":"aqua","italic": false}]
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
 }
-

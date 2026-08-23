@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "minecraft:diamond_sword",
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+        "attribute_modifiers": [
+            {"id": "minecraft:base_attack_damage","type": "attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"},
+            {"id": "minecraft:base_attack_speed","type": "attack_speed","amount": -2.4,"operation": "add_value","slot": "mainhand"}
+        ],
+        "lore": [{"text": "Diamond Netherite","color":"aqua","italic": false}]
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

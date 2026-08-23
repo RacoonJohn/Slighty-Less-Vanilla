@@ -11,6 +11,7 @@
             {"id": "minecraft:base_armor_toughness","type": "armor_toughness","amount": 2.5,"operation": "add_value","slot": "legs"},
             {"id": "minecraft:base_knockback_resistance","type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "legs"}
         ],
+        "item_model": "gold_netherite_leggings",
         "max_damage": 495,
         "enchantable": {"value": 22},
         "lore": [{"text": "Golden Netherite","color":"gold","italic": false}],

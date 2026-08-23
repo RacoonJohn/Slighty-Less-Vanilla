@@ -10,6 +10,7 @@
             {"id": "minecraft:base_attack_damage","type": "attack_damage","amount": 9,"operation": "add_value","slot": "mainhand"},
             {"id": "minecraft:base_attack_speed","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"}
         ],
+        "item_model": "gold_netherite_axe",
         "tool":{"rules": [{"blocks": "#mineable/axe","speed": 14,"correct_for_drops": true}]},
         "max_damage": 1561,
         "enchantable": {"value": 22},

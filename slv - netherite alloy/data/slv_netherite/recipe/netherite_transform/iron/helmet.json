@@ -11,8 +11,8 @@
             {"id": "minecraft:base_armor_toughness","type": "armor_toughness","amount": 3.5,"operation": "add_value","slot": "head"},
             {"id": "minecraft:base_knockback_resistance","type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "head"}
         ],
+        "item_model": "iron_netherite_helmet",
         "max_damage": 430,
-        "enchantable": {"value": 15},
         "lore": [{"text": "Iron Netherite","color":"gray","italic": false}],
         "equippable": {
           "slot": "head",

@@ -10,9 +10,9 @@
             {"id": "minecraft:base_attack_damage","type": "attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"},
             {"id": "minecraft:base_attack_speed","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"}
         ],
+        "item_model": "iron_netherite_axe",
         "tool":{"rules": [{"blocks": "#mineable/axe","speed": 8.5,"correct_for_drops": true}]},
         "max_damage": 2266,
-        "enchantable": {"value": 15},
         "lore": [{"text": "Iron Netherite","color":"gray","italic": false}]
           },
     "count": 1

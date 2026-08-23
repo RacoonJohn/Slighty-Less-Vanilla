@@ -10,6 +10,7 @@
             {"id": "minecraft:base_attack_damage","type": "attack_damage","amount": 5,"operation": "add_value","slot": "mainhand"},
             {"id": "minecraft:base_attack_speed","type": "attack_speed","amount": -2.8,"operation": "add_value","slot": "mainhand"}
         ],
+        "item_model": "gold_netherite_pickaxe",
         "tool":{"rules": [{"blocks": "#mineable/pickaxe","speed": 14,"correct_for_drops": true}]},
         "max_damage": 1561,
         "enchantable": {"value": 22},

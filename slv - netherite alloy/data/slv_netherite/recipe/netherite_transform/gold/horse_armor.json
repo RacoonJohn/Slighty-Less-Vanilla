@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:golden_horse_armor",
+  "addition": "#minecraft:netherite_tool_materials",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "result": {
+    "id": "minecraft:netherite_horse_armor",
+    "components": {
+        "attribute_modifiers": [
+            {"id": "minecraft:base_armor","type": "armor","amount": 19,"operation": "add_value","slot": "body"},
+            {"id": "minecraft:base_armor_toughness","type": "armor_toughness","amount": 2.5,"operation": "add_value","slot": "body"},
+            {"id": "minecraft:base_knockback_resistance","type": "knockback_resistance","amount": 0.1,"operation": "add_value","slot": "body"}
+        ],
+        "item_model": "gold_netherite_horse_armor",
+        "enchantable": {"value": 22},
+        "lore": [{"text": "Golden Netherite","color":"gold","italic": false}],
+        "equippable": {
+          "slot": "body",
+          "asset_id": "gold_netherite",
+          "equip_sound": "item.armor.equip_netherite"
+        }
+    },
+    "count": 1
+  }
+}
